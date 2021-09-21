@@ -103,3 +103,5 @@ with tf.device('/GPU:0'):
 
     print(f"\nEpoch Loss: {tf.math.reduce_mean(list_step_loss)}")
     print(f"\nTime To Finish Epoch {epoch} - {int(totTime // 60)}:{int(totTime % 60)}\n\n")
+    
+model.save('language_detector', save_format = 'tf')
