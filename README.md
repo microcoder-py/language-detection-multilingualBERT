@@ -1,7 +1,7 @@
 # Language Detection Using BERT - Base, Cased Multilingual
 
 ## Overview
-Using the pretrained [BERT Multilingual model](https://tfhub.dev/tensorflow/bert_multi_cased_L-12_H-768_A-12/4), a language detection model was devised. The model was fine tuned using the [Wikipedia 40 Billion](https://research.google/pubs/pub49029/) dataset which contains Wikipedia entries from 41 different languages. The model was trained on 16 of the languages. You may find the dataset [here](https://www.tensorflow.org/datasets/catalog/wiki40b).
+Using the pretrained [BERT Multilingual model](https://tfhub.dev/tensorflow/bert_multi_cased_L-12_H-768_A-12/4), a language detection model was devised. The model was fine tuned using the [Wikipedia 40 Billion Multilingual Dataset](https://research.google/pubs/pub49029/) which contains Wikipedia entries from 41 different languages. The model was trained on 16 of the languages. You may find the dataset [here](https://www.tensorflow.org/datasets/catalog/wiki40b).
 
 ## Usage
 
