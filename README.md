@@ -28,7 +28,7 @@ Download the whole repository and run the file ```modelling.py``` with the comma
 
 ### If you want to train it on more, or different languages
 
-You can find the list of languages available under the Wiki40B dataset in [this link](https://www.tensorflow.org/datasets/catalog/wiki40b). Simply add the languages to the list ```languages_list``` in the file ```modelling.py``` and run it, everything else is configured to work automatically
+You can find the list of languages available under the Wiki40B dataset in [this link](https://www.tensorflow.org/datasets/catalog/wiki40b). Simply add the languages to the list ```list_languages``` in the file ```modelling.py``` and run it, everything else is configured to work automatically
 
 ### If you want to perform inference, i.e. simply find what language a given document is written in
 
