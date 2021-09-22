@@ -89,7 +89,8 @@ with tf.device('/GPU:0'):
     print(f"<---------------- STARTING EPOCH {epoch} ---------------->")
     strTime = time.time()
     list_step_loss = []
-
+    
+    #Shuffling after every epoch to help in generalisation
     train_db = train_db.shuffle(SHUFFLE_BUFFER)
 
     for step, data in enumerate(train_db):
