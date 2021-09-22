@@ -36,4 +36,4 @@ You can find the list of languages available under the Wiki40B dataset in [this 
 * Under the same file hierarchy as the other python files, download and save the trained model [from this link](https://drive.google.com/drive/folders/1iqByvdbmDkUj-CX8QiVm3IfFLbvuyhvO?usp=sharing)
 * Import the file ```lang_finder.py``` and call the function ```lang_finder.find_language([str])``` which accepts a list of strings as input, and returns list of what language they were written in
 
-> NOTE: If you changed the set of languages being used, please update the list specified in the file ```lang_finder.py``` as well for it to run correctly
+> **NOTE**: If you changed the set of languages being used, please update the list specified in the file ```lang_finder.py``` as well for it to run correctly
