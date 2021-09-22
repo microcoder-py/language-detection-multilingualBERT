@@ -12,7 +12,8 @@ Using the pretrained [BERT Multilingual model](https://tfhub.dev/tensorflow/bert
 * TensorFlow Text: ```>> pip install tensorflow-text --no-dependencies ```
 
 > Please note that we are making use of the ```--no-dependencies``` flag because of an error that TensorFlow Text throws pursuant to this following [GitHub Issue](https://github.com/tensorflow/text/issues/200). If you have already installed TensorFlow text, it is recommended you uninstall and reinstall it
-> Please also note that after installing TensorFlow Text with this specific flag, you will need to import the file to register a few ops, as [highlighted here](https://github.com/tensorflow/text/issues/200#issuecomment-780998374)
+
+>  Please also note that after installing TensorFlow Text with this specific flag, you will need to import the file to register a few ops, as [highlighted here](https://github.com/tensorflow/text/issues/200#issuecomment-780998374)
 
 * Sci-kit Learn: ```>> pip install sklearn```
 
